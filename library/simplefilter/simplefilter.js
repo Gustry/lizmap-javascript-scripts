@@ -584,7 +584,7 @@ var lizSimpleFilterLayer = function() {
             lizMap.events.on({
                 layerfeatureremovefilter: function(e){
                     if(e.featureType == lizSimpleFilterLayerConfig.layername){
-                        console.log('layerfeatureremovefilter');
+                        // console.log('layerfeatureremovefilter');
                         filteredFeaturesIds = [];
 
                         // We need to uncheck all checkboxes
